@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Run:
 
-Things you may want to cover:
+  rails server
 
-* Ruby version
+Create a new controller:
 
-* System dependencies
+  rails generate controller Tasks
 
-* Configuration
+Create a Model:
 
-* Database creation
+  rails generate model task title:string details:text completed:boolean
 
-* Database initialization
+Run migration:
 
-* How to run the test suite
+  rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+View the routes of the app:
 
-* Deployment instructions
-
-* ...
+  rails routes
